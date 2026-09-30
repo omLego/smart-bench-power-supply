@@ -1,18 +1,20 @@
 # Smart Bench Power Supply
 
-A dual-channel bench power supply built with upcycled components, featuring Arduino temperature monitoring and automatic fan control.
+A dual-channel bench power supply built with upcycled components, featuring Arduino temperature/humidity monitoring, SSD1306 OLED status display, and automatic PWM fan control.
 
 ## 🚀 Specifications
 - **Input:** 19V 3.42A (ASUS Adapter)
 - **Channel 1 (Buck):** XL4015 (Adjustable Voltage & Current)
 - **Channel 2 (Boost):** MT3608 (High Voltage Output)
-- **Control Unit:** Arduino Uno / Nano + Temp Sensor
-- **Display:** Voltmeter / Ammeter Panel + Fan Control
+- **Control Unit:** Arduino Nano + DHT11 Temp/Humidity Sensor
+- **Status Display:** 1.30" I2C OLED Display (128x64)
+- **Power Display:** Voltmeter / Ammeter Panel
+- **Cooling:** Smart PWM Fan Control System
 
 ## 🛠️ Project Roadmap
 - [x] Environment Setup (VS Code, WakaTime, GitHub)
-- [ ] CAD Design (Fusion 360 Enclosure)
+- [/] Arduino Code & Logic Development (Fan control & OLED interface)
 - [ ] Hardware Assembly & Wiring
-- [ ] Arduino Code & Fan Control
+- [ ] CAD Design (Fusion 360 Custom Enclosure)
 - [ ] Final Testing & Calibration
 -
