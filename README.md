@@ -1,20 +1,16 @@
 # Smart Bench Power Supply
 
-A dual-channel bench power supply built with upcycled components, featuring temperature/humidity monitoring, automated PWM cooling, and stable standalone operation.
+A reliable, non-microcontroller-based adjustable bench power supply featuring dual-channel current/voltage monitoring and an independent battery-powered cooling system.
 
-## 📌 Specifications
+## 🚀 Specifications
 * **Input:** 19V 3.42A (ASUS Adapter)
-* **Channel 1 (Buck):** XL4015 (Adjustable Voltage & Current)
-* **Channel 2 (Boost):** MT3608 (High Voltage Output)
-* **Control Unit:** Arduino Nano + DHT11 Temp/Humidity Sensor
-* **Status Display:** None (Standalone / Serial monitoring)
-* **Power Display:** Volt Meter / Ammeter Panel
-* **Cooling:** Smart PWM Fan Control System via Dual MOSFET Module & Smoothing Logic
+* **Main Power (Buck):** XL4015 (Adjustable Voltage & Current via CV/CC)
+* **Power Display:** DSN-VC288 Volt Meter / Ammeter Panel
+* **Cooling System:** Independent 3.7V Li-ion Battery Powered Fan via TP4056 Module (with Switch Control, Filter Capacitor, and Flyback Diode; Fan Blue = Positive, White = Negative)
 
-## 🗺️ Project Roadmap
-* [x] Environment Setup (VS Code, WakaTime, GitHub)
-* [x] Arduino Code & Logic Development (Fan control, kickstart & smooth filtering)
-* [ ] Hardware Assembly & Wiring
-* [ ] CAD Design (Fusion 360 Custom Enclosure)
-* [ ] Final Testing & Calibration
+## 📌 Project Roadmap
+* [x] Component Selection & Circuit Design (XL4015, DSN-VC288, TP4056)
+* [x] Wiring & Polarity Verification (Voltage/Current Shunt & Fan Circuit)
+* [ ] Hardware Assembly & Enclosure Integration
+* [ ] Final Testing & Calibration (Voltage/Current Accuracy & Load Tests)
 *
