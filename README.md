@@ -56,6 +56,11 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 
 ---
 
+## 🎬 Live Testing & Fan Operation
+![Power Supply in Action](Pic/test-video.mp4)
+
+---
+
 ## 📐 3D Design & Enclosure Integration
 * **Software Used:** Autodesk Fusion 360
 * **Design Strategy:** The enclosure was modeled as a modular two-part assembly to simplify printing, allow easy wiring access, and accommodate front panel cutouts for the DSN-VC288 display, potentiometers, and toggle switches.
