@@ -1,5 +1,11 @@
 # ⚡ Star Dance - Custom 3D Printed Bench Power Supply
 
+---
+
+![Finished Exterior](Pic/finished-exterior-sidee.jpeg)
+
+---
+
 A reliable, non-microcontroller-based adjustable bench power supply featuring dual-channel current/voltage monitoring and an independent battery-powered cooling system, custom-designed from scratch for the Hack Club Star Dance challenge.
 
 ---
@@ -57,9 +63,10 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 
 ---
 
-## 📸 Project Gallery
 ![Fusion Front View](Pic/fusion-front-view.png)
-![Finished Build](Pic/finished-exterior.png)
+![Fusion Top View](Pic/fusion-top-view.png)
+![Fusion Side View](Pic/fusion-side-view.png)
+![Slicer Preview](Pic/bambu-slicer-preview.png)
 
 ---
 
@@ -68,6 +75,11 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 2. **Component Mounting:** Secure the DSN-VC288 display, rocker switches, and potentiometers into their designated front-panel slots.
 3. **Wiring & Soldering:** Solder the input/output connections to the XL4015 module, integrate the voltmeter shunts, and wire the independent battery-powered fan circuit.
 4. **Integration & Closing:** Carefully guide all internal wiring into the enclosure to prevent pinching, align the modular case halves, and secure the final assembly.
+
+---
+
+![Interior Assembly](Pic/interior-assembly.jpeg)
+![Internal Wiring](Pic/interior-assembly-front.jpeg)
 
 ---
 
