@@ -57,6 +57,12 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 
 ---
 
+## 📸 Project Gallery
+![Fusion Front View](Pic/fusion-front-view.png)
+![Finished Build](Pic/finished-exterior.png)
+
+---
+
 ## 🔧 Step-by-Step Assembly Guide
 1. **Enclosure Fabrication:** 3D print the upper and lower case halves, ensuring smooth mating surfaces and clearing any support materials from ventilation slots.
 2. **Component Mounting:** Secure the DSN-VC288 display, rocker switches, and potentiometers into their designated front-panel slots.
@@ -65,7 +71,6 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 
 ---
 
-## 🤖 AI Use
 ## 🤖 AI Use
 AI tools were used minimally for formatting assistance and documentation structure. All design, engineering, and assembly work was done by me.
 
