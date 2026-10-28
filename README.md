@@ -56,7 +56,8 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 
 ---
 
-
+## ⚡ Working in Action
+![Power Supply Working](Pic/power-supply-working.jpeg)
 
 ---
 
