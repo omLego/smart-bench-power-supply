@@ -16,14 +16,15 @@ A reliable, non-microcontroller-based adjustable bench power supply featuring du
 3. [Bill of Materials & Components](#-bill-of-materials--components)
 4. [Circuit Architecture & Wiring](#-circuit-architecture--wiring)
 5. [Circuit Schematic](#-circuit-schematic)
-6. [Working in Action](#-working-in-action)
-7. [3D Design & Enclosure Integration](#-3d-design--enclosure-integration)
-8. [Step-by-Step Assembly Guide](#-step-by-step-assembly-guide)
-9. [Troubleshooting & Challenges Faced](#troubleshooting-challenges-faced)
-10. [Future Improvements](#future-improvements)
-11. [AI Use](#-ai-use)
-12. [License](#-license)
-13. [Contributing](#-contributing)
+6. [Detailed Wiring & Pinout Guide](#-detailed-wiring--pinout-guide)
+7. [Working in Action](#-working-in-action)
+8. [3D Design & Enclosure Integration](#-3d-design--enclosure-integration)
+9. [Step-by-Step Assembly Guide](#-step-by-step-assembly-guide)
+10. [Troubleshooting & Challenges Faced](#-troubleshooting--challenges-faced)
+11. [Future Improvements](#-future-improvements)
+12. [AI Use](#-ai-use)
+13. [License](#-license)
+14. [Contributing](#-contributing)
 
 ---
 
@@ -65,6 +66,23 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 Here is the hardware circuit schematic designed in KiCad for the project:
 
 ![Smart Bench Power Supply Schematic](./assets/Smart-Bench-Power-Supply.svg)
+
+---
+
+## 🔌 Detailed Wiring & Pinout Guide
+
+To ensure safety, prevent noise interference, and maintain clean power delivery, the wiring is split into two independent circuits: the **Main Power Path** and the **Isolated Cooling Subsystem**.
+
+### 1. Main Power Path (XL4015 & DSN-VC28)
+* **Input Power:** Connect the 19V, 3.42A ASUS Adapter output to the positive (+) and negative (-) input terminals of the XL4015 step-down buck converter.
+* **Output Regulation:** Wire the output terminals of the XL4015 to the input side of the DSN-VC28 dual LED meter (thick red/black wires for power input).
+* **Binding Posts:** Connect the regulated output from the DSN-VC28 meter to the front-panel banana binding posts for external device connection.
+* **Sampling Shunt:** Ensure the thin measurement wires of the DSN-VC28 are correctly routed across the negative output line to accurately measure current draw without voltage drop interference.
+
+### 2. Cooling Subsystem (Isolated 18650 Power)
+* **Battery Power Source:** Connect a single 18650 Li-ion cell to the TP4056 charging module input terminals for safe battery management and USB-C recharging capability.
+* **Switch & Fan Control:** Route the positive output from the 18650 battery through a dedicated front-panel rocker switch directly to the DC cooling fan.
+* **Electrical Isolation:** Keeping this fan circuit completely separate from the main 19V power rail ensures that fan motor noise or load fluctuations do not affect the precision of the power supply output.
 
 ---
 
