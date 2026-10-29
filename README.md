@@ -63,7 +63,7 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 
 ## ⚡ Circuit Schematic
 
-Here is the hardware circuit schematic designed in KiCad for the project:
+Here is teh hardware circuit schematic designed in KiCad for the project:
 
 ![Smart Bench Power Supply Schematic](./assets/Smart-Bench-Power-Supply.svg)
 
@@ -71,7 +71,7 @@ Here is the hardware circuit schematic designed in KiCad for the project:
 
 ## 🔌 Detailed Wiring & Pinout Guide
 
-To ensure safety, prevent noise interference, and maintain clean power delivery, the wiring is split into two independent circuits: the **Main Power Path** and the **Isolated Cooling Subsystem**.
+To ensure safety, prevent noise interference, and maintain clean power delivery, the wiring is split into two independed circuits: the **Main Power Path** and the **Isolated Cooling Subsystem**.
 
 ### 1. Main Power Path (XL4015 & DSN-VC28)
 * **Input Power:** Connect the 19V, 3.42A ASUS Adapter output to the positive (+) and negative (-) input terminals of the XL4015 step-down buck converter.
