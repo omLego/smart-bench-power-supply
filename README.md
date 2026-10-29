@@ -2,7 +2,7 @@
 
 ---
 
-![Finished Exterior](Pic/finished-exterior-sidee.jpeg)
+![Finished Exterior](Pic/power-supply.jpeg)
 
 ---
 
@@ -57,7 +57,7 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 ---
 
 ## ⚡ Working in Action
-![Power Supply Working](Pic/power-supply-working.jpeg)
+![Power Supply Working Video](Pic/power-supply-working.jpeg)
 
 ---
 
@@ -68,6 +68,7 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 
 ---
 
+![Fusion Back View](Pic/fusion-back-view.png)
 ![Fusion Front View](Pic/fusion-front-view.png)
 ![Fusion Top View](Pic/fusion-top-view.png)
 ![Fusion Side View](Pic/fusion-side-view.png)
