@@ -15,11 +15,13 @@ A reliable, non-microcontroller-based adjustable bench power supply featuring du
 2. [Key Features](#-key-features)
 3. [Bill of Materials & Components](#-bill-of-materials--components)
 4. [Circuit Architecture & Wiring](#-circuit-architecture--wiring)
-5. [3D Design & Enclosure Integration](#-3d-design--enclosure-integration)
-6. [Step-by-Step Assembly Guide](#-step-by-step-assembly-guide)
-7. [AI Use](#-ai-use)
-8. [License](#-license)
-9. [Contributing](#-contributing)
+5. [Circuit Schematic](#-circuit-schematic)
+6. [Working in Action](#-working-in-action)
+7. [3D Design & Enclosure Integration](#-3d-design--enclosure-integration)
+8. [Step-by-Step Assembly Guide](#-step-by-step-assembly-guide)
+9. [AI Use](#-ai-use)
+10. [License](#-license)
+11. [Contributing](#-contributing)
 
 ---
 
@@ -53,6 +55,14 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 1. **Main Power Rail:** The 19V adapter input connects directly to the input terminals of the XL4015 buck converter. The output passes through the front-facing voltage/current shunt wiring to the binding posts.
 2. **Display Integration:** The DSN-VC288 meter is wired into the output path to accurately measure and display voltage levels and current draw simultaneously.
 3. **Cooling Subsystem:** To prevent electrical noise feedback into the main circuit, the cooling fan operates on an isolated line powered by an 18650 battery, managed via a TP4056 charging module and controlled by a dedicated rocker switch on the front panel.
+
+---
+
+## ⚡ Circuit Schematic
+
+Here is the hardware circuit schematic designed in KiCad for the project:
+
+![Smart Bench Power Supply Schematic](./assets/Smart-Bench-Power-Supply.svg)
 
 ---
 
