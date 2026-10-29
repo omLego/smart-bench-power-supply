@@ -90,10 +90,12 @@ Here is the hardware circuit schematic designed in KiCad for the project:
 ---
 
 ## 🔧 Step-by-Step Assembly Guide
-1. **Enclosure Fabrication:** 3D print the upper and lower case halves, ensuring smooth mating surfaces and clearing any support materials from ventilation slots.
-2. **Component Mounting:** Secure the DSN-VC288 display, rocker switches, and potentiometers into their designated front-panel slots.
-3. **Wiring & Soldering:** Solder the input/output connections to the XL4015 module, integrate the voltmeter shunts, and wire the independent battery-powered fan circuit.
-4. **Integration & Closing:** Carefully guide all internal wiring into the enclosure to prevent pinching, align the modular case halves, and secure the final assembly.
+
+1. **3D Printing & Enclosure Post-Processing:** Print the upper and lower case halves using high-quality PLA on a Bambu Lab printer with optimized wall generators and Gyroid infill. Clean up any support materials from the front panel cutouts and ventilation slots.
+2. **Component Dry-Fitting & Test Fit:** Securely dry-fit the DSN-VC28 voltage/current display, toggle switches, potentiometers, and binding posts into the custom front panel slots to ensure precise alignment before final wiring.
+3. **Cooling Subsystem & Battery Integration:** Assemble the independent cooling fan circuit powered by an isolated 18650 battery holder, managed via a TP4056 charging module and controlled by a dedicated front-panel rocker switch to eliminate electrical noise feedback.
+4. **Main Circuit Wiring & Shunt Integration:** Solder the input/output connections to the XL4015 module, carefully route the thick power lines away from sensitive measurement wires, and integrate the voltmeter shunt connections.
+5. **Final Integration, Closing & Bench Testing:** Guide all internal wiring safely into the enclosure to prevent pinching, align the modular case halves, secure them, and perform a preliminary continuity and voltage output check with a multimeter.
 
 ---
 
