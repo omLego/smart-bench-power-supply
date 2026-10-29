@@ -19,9 +19,11 @@ A reliable, non-microcontroller-based adjustable bench power supply featuring du
 6. [Working in Action](#-working-in-action)
 7. [3D Design & Enclosure Integration](#-3d-design--enclosure-integration)
 8. [Step-by-Step Assembly Guide](#-step-by-step-assembly-guide)
-9. [AI Use](#-ai-use)
-10. [License](#-license)
-11. [Contributing](#-contributing)
+9. [Troubleshooting & Challenges Faced](#troubleshooting-challenges-faced)
+10. [Future Improvements](#future-improvements)
+11. [AI Use](#-ai-use)
+12. [License](#-license)
+13. [Contributing](#-contributing)
 
 ---
 
@@ -92,6 +94,18 @@ Here is the hardware circuit schematic designed in KiCad for the project:
 2. **Component Mounting:** Secure the DSN-VC288 display, rocker switches, and potentiometers into their designated front-panel slots.
 3. **Wiring & Soldering:** Solder the input/output connections to the XL4015 module, integrate the voltmeter shunts, and wire the independent battery-powered fan circuit.
 4. **Integration & Closing:** Carefully guide all internal wiring into the enclosure to prevent pinching, align the modular case halves, and secure the final assembly.
+
+---
+
+## 🛠️ Troubleshooting & Challenges Faced
+* **Point-to-Point Wiring Complexity:** Since I chose manual wiring over a custom printed circuit board (PCB), routing the thick power lines alongside sensitive measurement wires required careful spacing to prevent short circuits and thermal issues.
+* **Thermal Management:** Keeping the cooling subsystem completely isolated from the main adjustable power path was tricky, solved by utilizing a dedicated 18650 battery and a separate switch.
+
+---
+
+## 🚀 Future Improvements
+* **Digital Control Integration:** Upgrading the voltage regulation stage with a microcontroller-based digital potentiometer or PWM control for software-defined presets.
+* **Integrated Enclosure Upgrades:** Designing a modular snap-fit front panel with integrated cable management hooks using my Bambu Lab printer.
 
 ---
 
