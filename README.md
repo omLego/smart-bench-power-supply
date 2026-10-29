@@ -57,7 +57,7 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 ---
 
 ## ⚡ Working in Action
-![Power Supply Working Video](https://github.com/omLego/smart-bench-power-supply/raw/main/assets/Working-video.mp4)
+[![Smart Bench Power Supply – Functional Demonstration](https://img.youtube.com/vi/aP1SMXS6mow/0.jpg)](https://www.youtube.com/shorts/aP1SMXS6mow)
 
 ---
 
