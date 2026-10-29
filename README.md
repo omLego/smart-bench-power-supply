@@ -73,7 +73,7 @@ The **Star Dance Power Supply** is a robust, desktop-class bench power supply bu
 ![Fusion Top View](Pic/fusion-top-view.png)
 ![Fusion Side View](Pic/fusion-side-view.png)
 ![Slicer Preview For A1 Mini](Pic/bambu-slicer-preview-for-A1-mini.png)
-![Slicer Preview](bambu-slicer-preview.png)
+![Slicer Preview](Pic/bambu-slicer-preview.png)
 
 ---
 
