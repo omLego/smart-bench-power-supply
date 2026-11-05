@@ -144,5 +144,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 Contributions, bug reports, and feature suggestions are welcome! Feel free to open an issue or submit a pull request if you want to improve the enclosure design or circuit efficiency.
